@@ -1,6 +1,6 @@
 # Explicación del programa entregado
 	
-## Sobre el TDA Lista
+## _Sobre el TDA Lista_
 
 Al TDA lista se le realizó una modificación y se le agregó una funcionalidad. Como modificación se le agregó un destructor de elementos opcional
 que se le es aplicado al elemento cuando se elimine de la lista, si el destructor es ingresado como NULL al crear la lista se dice que la lista no
@@ -10,7 +10,7 @@ principios de un TDA y la flexibilidad que debe ofrecer para brindar soluciones 
 una función que opere con listas de la manera requerida y se implementó.
 	
 		
-## Sobre el TDA Heap
+## _Sobre el TDA Heap_
 
 El TDA heap fue implementado teniendo como base a un vector dinámico de elementos donde son guardados todos los punteros a los elementos insertados
 en el heap. De esta manera se puede hacer un uso óptimo de la memoria dinámica redimensionando el vector según lo necesario. Las funciones implementadas
@@ -24,7 +24,7 @@ La lógica interna del heap está diseñada para que el resultado de la inserci�
 establecidas para el comparador en el header heap.h
 	
 		
-## Sobre las estructuras
+## _Sobre las estructuras_
 
 En el header estructuras.h se encuentran las declaraciones de los tipo de dato personalizados utilizados a los largo del TP. Se detallará el motivo
 de elección de cada campo a continuación:
@@ -60,14 +60,14 @@ mantener los entrenadores separados del líder y tener claro si se terminó deci
 carácter minimal.
 	
 	
-## Sobre las funciones de batallas
+## _Sobre las funciones de batallas_
 
 Cada una de las cinco funciones de batalla tiene la explicación sencilla de quién gana el combate en las firmas de las mismas en batallas.h. En las
 implementaciones encontradas en batallas.c se toma a cada pokemon que ingresa como un "void *" como si fuese de tipo "pokemon_t *", haciendo el casteo
 correspondiente e incluyendo estructuras.h.
 
 
-## Aspectos generales sobre el TP2 Aventura Pokemon
+## _Aspectos generales sobre el TP2 Aventura Pokemon_
 
 Se entrega un programa/juego cuyo main reside en "aventura_pokemon.c". Las bibliotecas utilizadas se encuentran en la carpeta principal, ellas son:
 TDA lista (lista.h y lista.c), TDA heap (heap.h y heap.c), definiciones de batallas (batallas.h y batallas.c) y definiciones de estructuras (estructuras.h).
@@ -89,7 +89,7 @@ Ambas cargas de archivos requieren que el archivo sea de extensión '.txt' paraq
 limita que no se puedan leer archivos que sean de texto y no utilicen dichaextensión, como la extensión '.csv', por ejemplo. Esta es una
 característica que puede ser agregada dependiendo de la extensión que se desee.
 
-## Personaje Principal
+## _Personaje Principal_
 	
 - Entrenador válido (intentos con 11, 6 y 1 pokemones): carga bien
 - Sobrescribir entrenador con entrenador válido: sobrescribe bien
@@ -112,7 +112,7 @@ Referencias en carpeta 'pers/':
 - Ashyvarios.txt : válido con 4 entrenadores (siendo Ash con 11 pokemones el primero), para comprobar lectura de sólo un entrenador
 	
 	
-## Gimnasios
+## _Gimnasios_
 	
 - Archivo de gimnasio válido (gim.txt): carga bien
 - Archivo de gimnasio con un entrenador sin pokemones al final (gimEntrenadorSinPoke.txt): carga bien el líder y entrenador con pokemones. 
