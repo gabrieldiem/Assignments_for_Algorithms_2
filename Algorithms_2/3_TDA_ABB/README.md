@@ -12,7 +12,7 @@ Se puede notar que en el caso del borrado se dividen los casos en los distintos 
 
 Como explicación de por qué en algunos casos las funciones de búsqueda también recogen el dato "nodo padre" es para evitar gasto innecesario de recursos y poder obtener el nodo en cuestión y su padre en una sola "pasada", evitando un incremento de complejidad en comparación de si se requirieran dos pasadas.
 
-En el caso de las funciones que recorren y llenan un array, se decidió evitar la repetición de código. Esto es, para cada una de estas funciones se implementa el recorrido que representan, pero también la función abb_con_cada_elemento requiere la implementación de funciones que hagan los mismos 3 tipos de recorrido (inorden, preorden y postorden). Este es el motivo por el cual fueron creadas3 funciones que abb_con_cada_elemento puede usar y aplicar la función que recibe como parámetro, así como una función especial que rellena el array, siendo compatible para ser enviada a las funciones de recorrido.
+En el caso de las funciones que recorren y llenan un array, se decidió evitar la repetición de código. Esto es, para cada una de estas funciones se implementa el recorrido que representan, pero también la función abb_con_cada_elemento requiere la implementación de funciones que hagan los mismos 3 tipos de recorrido (inorden, preorden y postorden). Este es el motivo por el cual fueron creadas 3 funciones que abb_con_cada_elemento puede usar y aplicar la función que recibe como parámetro, así como una función especial que rellena el array, siendo compatible para ser enviada a las funciones de recorrido.
 
 Como nota sobre el conjunto de datos elegido para las pruebas, se seleccionó pensado de tal manera que se tenga un árbol completo de 15 elementos, se proporciona un esquema visual del resultado de dicho árbol con las claves elegidas:
 
@@ -72,22 +72,22 @@ Lo que hace esta línea de comando es ejecutar Valgrind y expresa diversos argum
 
 1. Un ABB (Árbol de Búsqueda Binario) es una variante de la estructura de dato árbol, donde se puede tener un máximo de 2 hijos (binario).Hasta aquí se tiene sólo la definición de un árbol binario, el árbol binario de búsqueda posee una condición donde los elementos almacenados en el sub-árbol izquierdo de un determinado nodo siempre son menores al elemento de dicho nodo,y los elementos almacenados en el sub-árbol derecho serán mayores a dicho elemento. Aquí se marca un orden diferenciado. También es posible que esto sea al revés,pero por convención se suele utilizar más esta forma. Se debe adoptar una convención para los elementos con el mismo valor o duplicados.
 
-2. El objetivo de tener una función de destrucción en el TDA es para que el usuario tenga más flexibilidad y control sobre los elementos que inserta en el nodo. Por lo que si están en memoria dinámica, por ejemplo, puede liberar los elementos, osi están en el stack puede no hacer nada con ellos o modificar un campo. Cuando se refiere a elementos se está hablando específicamente de "el objeto" que se inserta en los nodos del árbol y no de los nodos en sí. Si no existiese este destructor, se le quitaría este control al usuario,quedando en manos del usuario el tener un registro de los elementos y el manejo del borrado, lo cual sería poco conveniente.
+2. El objetivo de tener una función de destrucción en el TDA es para que el usuario tenga más flexibilidad y control sobre los elementos que inserta en el nodo. Por lo que si están en memoria dinámica, por ejemplo, puede liberar los elementos, o si están en el stack puede no hacer nada con ellos o modificar un campo. Cuando se refiere a elementos se está hablando específicamente de "el objeto" que se inserta en los nodos del árbol y no de los nodos en sí. Si no existiese este destructor, se le quitaría este control al usuario,quedando en manos del usuario el tener un registro de los elementos y el manejo del borrado, lo cual sería poco conveniente.
 	
 3. Operaciones primitivas del ABB teniendo en cuenta el peor escenario (worst case):
 
 	- Creación: O(1), porque sólo se trata con punteros y se reserva memoria dinámica.
 
-	- Inserción: O(n) en el peor caso porque este ABB no es autobalanceado y podría degenerar en lista, teniendoque ciclar todos los elementos.
+	- Inserción: O(n) en el peor caso porque este ABB no es autobalanceado y podría degenerar en lista, teniendo que ciclar todos los elementos.
 
 	- Eliminación: O(n) en el peor caso porque este ABB no es autobalanceado y podría degenerar en lista,teniendo que ciclar todos los elementos.
 
-	- Búsqueda: O(n) en el peor caso porque este ABB no es autobalanceado y podría degenerar en lista, teniendoque llegar hasta el último para devolver el elemento.
+	- Búsqueda: O(n) en el peor caso porque este ABB no es autobalanceado y podría degenerar en lista, teniendo que llegar hasta el último para devolver el elemento.
 
 	- Devolver raíz: O(1) porque sólo se trata con punteros.
 
 	- Verificar vacío: O(1) porque sólo se trata con punteros.
 
-	- La idea de las siguientes funciones: "arbol_recorrido_inorden", "arbol_recorrido_preorden","arbol_recorrido_postorden" y "abb_con_cada_elemento" es recorrer todos los nodos y hacerles algo o almacenarlos en alguna parte. Porlo que naturalmente tienen una complejidad algorítmica de O(n).
+	- La idea de las siguientes funciones: "arbol_recorrido_inorden", "arbol_recorrido_preorden","arbol_recorrido_postorden" y "abb_con_cada_elemento" es recorrer todos los nodos y hacerles algo o almacenarlos en alguna parte. Por lo que naturalmente tienen una complejidad algorítmica de O(n).
 	
-	- Destrucción del árbol: O(n) porque debe eliminar todos los nodos presentes en el árbol, además del árbolmismo.
+	- Destrucción del árbol: O(n) porque debe eliminar todos los nodos presentes en el árbol, además del árbol mismo.
