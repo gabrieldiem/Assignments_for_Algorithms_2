@@ -1,4 +1,4 @@
-## Breve Introducción
+# Breve Introducción
 
 El programa presentado para evento_pesca funciona de la siguiente manera:
 
@@ -11,9 +11,9 @@ Una vez que los pasos previos se completan y la ejecución sigue (fallando y ret
 
 Para finalizar, guarda los pokemones del acuario en archivo de texto. Y luego libera la memoria del heap reservadautilizada previamente.
 
+<br><br>
 
-
-											Explicación de compilación
+# Explicación de compilación
 
 
 	La línea de compilación es la siguiente:
