@@ -1,5 +1,3 @@
-# README
-
 ## Breve Introducción
 
 El programa presentado para evento_pesca funciona de la siguiente manera:
