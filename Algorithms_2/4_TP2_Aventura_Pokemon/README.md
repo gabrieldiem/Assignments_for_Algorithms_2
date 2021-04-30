@@ -60,14 +60,14 @@ mantener los entrenadores separados del líder y tener claro si se terminó deci
 carácter minimal.
 	
 	
-## _Sobre las funciones de batallas_
+### _Sobre las funciones de batallas_
 
 Cada una de las cinco funciones de batalla tiene la explicación sencilla de quién gana el combate en las firmas de las mismas en batallas.h. En las
 implementaciones encontradas en batallas.c se toma a cada pokemon que ingresa como un "void *" como si fuese de tipo "pokemon_t *", haciendo el casteo
 correspondiente e incluyendo estructuras.h.
 
 
-## _Aspectos generales sobre el TP2 Aventura Pokemon_
+### _Aspectos generales sobre el TP2 Aventura Pokemon_
 
 Se entrega un programa/juego cuyo main reside en "aventura_pokemon.c". Las bibliotecas utilizadas se encuentran en la carpeta principal, ellas son:
 TDA lista (lista.h y lista.c), TDA heap (heap.h y heap.c), definiciones de batallas (batallas.h y batallas.c) y definiciones de estructuras (estructuras.h).
