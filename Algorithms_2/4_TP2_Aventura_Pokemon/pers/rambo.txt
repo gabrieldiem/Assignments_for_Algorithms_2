@@ -1,0 +1,14 @@
+E;Rambo
+P;Pikachu;106;119;56
+P;Butterfree;57;105;40
+P;Pidgeotto;111;117;118
+P;Bulbasaur;56;96;73
+P;Charmander;93;80;88
+P;Squirtle;75;31;118
+P;Krabby;88;87;92
+P;Raticate;120;77;92
+P;Haunter;104;62;71
+P;Primeape;116;49;88
+P;Muk;63;48;96
+P;INVENCIBLE_PAR;980;980;979
+P;INVENCIBLE_IMPAR;981;981;978

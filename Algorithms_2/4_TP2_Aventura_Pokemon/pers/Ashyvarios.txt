@@ -1,0 +1,20 @@
+E;Ash solito
+P;Pikachu;70;30;30
+P;Butterfree;50;40;50
+P;Pidgeotto;65;40;30
+P;Bulbasaur;20;40;30
+P;Charmander;40;30;20
+P;Squirtle;30;20;40
+P;Krabby;20;30;20
+P;Raticate;30;50;20
+P;Haunter;40;60;20
+P;Primeape;50;60;30
+P;Muk;20;40;60
+E;Equipo Rocket
+P;Agua; 1; 2; 3
+P;Fuego; 3; 2; 1
+E;Disce
+P;Tierra; 5; 44; 11
+E;Veos
+P;Horsea; 45; 30; 20
+P;Shelldon; 00; 11; 22

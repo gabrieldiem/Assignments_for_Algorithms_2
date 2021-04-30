@@ -1,0 +1,76 @@
+G;Gimnasio de Ciudad Celeste; 8; 3
+L;Misty
+P;Staryu; 50; 40; 50
+P;Starmie; 90; 50; 60
+E;Wallouu
+P;Squirtle; 99; 2; 36
+P;Charmander; 74; 26; 19
+P;Butterfree; 8; 55; 37
+E;Gabou
+P;Arbok; 22; 32; 82
+P;Pidgeot; 25; 59; 63
+P;Gloom; 9; 80; 77
+E;Nadador Luis
+P;Horsea; 45; 30; 20
+P;Shellder; 30;20;45
+E;Dominguera Diana
+P;Goldeen; 40; 50; 30
+G;Gimnasio Rocaloca; 1; 1
+L;Jumba
+P;Caterpie; 1; 2; 3
+P;Rattata; 3; 2; 1
+E;Veos
+P;Golduck; 45; 30; 20
+P;Shelldon; 00; 11; 22
+E;Disce
+P;Gengar; 5; 44; 11
+G;Gimnasio Piedra Santa; 2; 2
+L;Rocco
+P;Charizard; 32; 80; 81
+P;Pikachu; 22; 73; 95
+P;Gastly; 44; 48; 65
+P;Pidgey; 21; 26; 42
+P;Girantina; 31; 60; 94
+P;Pidgey; 36; 95; 100
+E;Diem
+P;Pikachu; 24; 89; 93
+P;Charizard; 31; 55; 91
+P;Ninetales; 20; 57; 74
+E;Sakura
+P;Butterfree; 63; 88; 99
+P;Pikachu; 32; 34; 96
+G;Gimnasio Aventura Extrema; 6; 4
+L;Christina
+P;Golduck; 23; 54; 79
+P;Rattata; 42; 74; 96
+P;Squirtle; 75; 84; 88
+P;Charizard; 28; 59; 84
+P;Butterfree; 21; 61; 82
+P;Ninetales; 37; 68; 87
+E;Houma
+P;Pidgey; 3; 9; 15
+P;Girantina; 8; 12; 13
+P;Rattata; 42; 45; 69
+P;Squirtle; 73; 75; 90
+E;Mayushi
+P;Rattata; 42; 45; 69
+P;Squirtle; 73; 75; 90
+G;Gimnasio Navidad Perdida; 15; 5
+L;Inori
+P;Gloom; 56; 67; 88
+P;Arbok; 27; 33; 89
+P;Charizard; 59; 60; 73
+P;Charmander; 39; 62; 76
+P;Girantina; 31; 58; 98
+P;Squirtle; 75; 84; 87
+E;Yahiro
+P;Golduck; 23; 54; 79
+P;Ninetales; 37; 68; 87
+P;Rattata; 42; 74; 95
+P;Butterfree; 21; 61; 82
+P;Squirtle; 75; 84; 88
+P;Squirtle; 73; 75; 90
+E;Shu
+P;Pidgey; 3; 9; 15
+P;Charizard; 28; 59; 84
+P;Rattata; 42; 45; 69

@@ -1,0 +1,17 @@
+G;Gimnasio de Ciudad Celeste; 15; 3
+L;Misty
+P;Staryu; 50; 40; 50
+P;Starmie; 90; 50; 60
+E;Dominguera Diana
+P;Goldeen; 40; 50; 30
+E;Nadador Luis
+P;Horsea; 45; 30; 20
+P;Shellder; 30;20;45
+E;Corredor Bill
+P;Arbok; 22; 32; 82
+P;Pidgeot; 25; 59; 63
+P;Gloom; 9; 80; 77
+E;Fiestero Joe
+P;Squirtle; 99; 2; 36
+P;Charmander; 74; 26; 19
+P;Butterfree; 8; 55; 37
