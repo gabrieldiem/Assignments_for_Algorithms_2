@@ -11,8 +11,6 @@ Una vez que los pasos previos se completan y la ejecución sigue (fallando y ret
 
 Para finalizar, guarda los pokemones del acuario en archivo de texto. Y luego libera la memoria del heap reservadautilizada previamente.
 
-<br>
-
 # Explicación de compilación
 
 
