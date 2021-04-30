@@ -1,35 +1,15 @@
-======================================================================================================================================
+# README
 
+## Breve Introducción
 
-											Breve Introducción
+El programa presentado para evento_pesca funciona de la siguiente manera:
 
- 
-	El programa presentado para evento_pesca funciona de la siguiente manera:
-	
-	Primero se consiguen las rutas de los archivos, siendo estrictamente necesaria la del arrecife para el
-funcionamiento y siendo opcional la de guardado del acuario, contando con una ruta predeterminada.
-	Luego se crea el arrecife, donde se revisa si la extensión del archivo contenido en la ruta recibida es
-realmente ".txt", cosa necesaria para detectar el tipo de archivo. Posteriormente se cargan los pokemones teniendo
-como primera dirección de memoria al puntero de "pokemon" de arrecife, haciendo una reserva en el heap inicial y
-luego una por cada pokemon.
-	Se inicializa en la memoria dinámica un acuario, dejándolo listo para copiar elementos.
-	Una vez que los pasos previos se completan y la ejecución sigue (fallando y retornando -1 si hubiese sucedido
-algún error), se pueden usar las funciones para trasladar pokemon y censar el arrecife, esta última recibe una
-función como parámetro y hace de intermediario para iterar y mostrar todos los pokemones. La función para
-trasladar posee el flujo condicionado por una función booleana que utilizando la función de selección recibida
-como parámetro, determina si las condiciones son aptas para trasladar (hay cantidad suficiente para el traslado).
-Luego, el flujo de "trasladar" continúa buscando la posición de un pokemon apto para el traslado y copiándolo al
-acuario, si el copiado fuese exitoso, la posicion se agregaría a un vector de posiciones que tienen que ser eliminadas
-del arrecife, si hubiese fallado, revertiría las copias ya hechas en el acuario y retornaría para poder hacer un posible
-siguiente traslado. Continuando, al copiar todos los pokemones respetando la cant_seleccion, se procedería a eliminar
-del arrecife los pokemones copiados con éxito al acuario. En caso de que el arrecife se quedara sin pokemones para
-trasladar, liberaría la memoria de su puntero de pokemones y lo haría apuntar a NULL, quedando su campo de cantidad en
-cero.
-	Para finalizar, guarda los pokemones del acuario en archivo de texto. Y luego libera la memoria del heap reservada
-utilizada previamente.
+Primero se consiguen las rutas de los archivos, siendo estrictamente necesaria la del arrecife para el funcionamiento y siendo opcional la de guardado del acuario, contando con una ruta predeterminada. 
+Luego se crea el arrecife, donde se revisa si la extensión del archivo contenido en la ruta recibida es realmente ".txt", cosa necesaria para detectar el tipo de archivo. Posteriormente se cargan los pokemones teniendo como primera dirección de memoria al puntero de "pokemon" de arrecife, haciendo una reserva en el heap inicial yluego una por cada pokemon. 
+Se inicializa en la memoria dinámica un acuario, dejándolo listo para copiar elementos. 
+Una vez que los pasos previos se completan y la ejecución sigue (fallando y retornando -1 si hubiese sucedidoalgún error), se pueden usar las funciones para trasladar pokemon y censar el arrecife, esta última recibe unafunción como parámetro y hace de intermediario para iterar y mostrar todos los pokemones. La función paratrasladar posee el flujo condicionado por una función booleana que utilizando la función de selección recibidacomo parámetro, determina si las condiciones son aptas para trasladar (hay cantidad suficiente para el traslado). Luego, el flujo de "trasladar" continúa buscando la posición de un pokemon apto para el traslado y copiándolo alacuario, si el copiado fuese exitoso, la posicion se agregaría a un vector de posiciones que tienen que ser eliminadasdel arrecife, si hubiese fallado, revertiría las copias ya hechas en el acuario y retornaría para poder hacer un posiblesiguiente traslado. Continuando, al copiar todos los pokemones respetando la cant_seleccion, se procedería a eliminardel arrecife los pokemones copiados con éxito al acuario. En caso de que el arrecife se quedara sin pokemones paratrasladar, liberaría la memoria de su puntero de pokemones y lo haría apuntar a NULL, quedando su campo de cantidad encero. 
+Para finalizar, guarda los pokemones del acuario en archivo de texto. Y luego libera la memoria del heap reservadautilizada previamente.
 
-
-======================================================================================================================================
 
 
 											Explicación de compilación

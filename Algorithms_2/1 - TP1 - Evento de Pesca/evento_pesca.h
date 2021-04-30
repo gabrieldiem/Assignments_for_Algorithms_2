@@ -1,27 +1,27 @@
 #ifndef _EVENTO_PESCA_H_
 #define _EVENTO_PESCA_H_
 
-#include <stdio.h>
 #include <stdbool.h>
+#include <stdio.h>
 
 #define MAX_ESPECIE 100
 #define MAX_COLOR 50
 
-typedef struct pokemon{
-  char especie[MAX_ESPECIE];
-  int velocidad;
-  int peso;
-  char color[MAX_COLOR];
+typedef struct pokemon {
+	char especie[MAX_ESPECIE];
+	int velocidad;
+	int peso;
+	char color[MAX_COLOR];
 } pokemon_t;
 
-typedef struct acuario{
-  pokemon_t* pokemon;
-  int cantidad_pokemon;
+typedef struct acuario {
+	pokemon_t* pokemon;
+	int cantidad_pokemon;
 } acuario_t;
 
-typedef struct arrecife{
-  pokemon_t* pokemon;
-  int cantidad_pokemon;
+typedef struct arrecife {
+	pokemon_t* pokemon;
+	int cantidad_pokemon;
 } arrecife_t;
 
 /*
@@ -54,7 +54,7 @@ acuario_t* crear_acuario();
  * acuario (su tamaño se ajustará luego de cada traslado).
  * Devuelve -1 en caso de error o 0 en caso contrario.
  */
-int trasladar_pokemon(arrecife_t* arrecife, acuario_t* acuario, bool (*seleccionar_pokemon) (pokemon_t*), int cant_seleccion);
+int trasladar_pokemon(arrecife_t* arrecife, acuario_t* acuario, bool (*seleccionar_pokemon)(pokemon_t*), int cant_seleccion);
 
 /*
  * Procedimiento que dado un arrecife deberá mostrar por pantalla a todos los pokemon que contiene.
@@ -71,7 +71,6 @@ int guardar_datos_acuario(acuario_t* acuario, const char* nombre_archivo);
  * Libera la memoria que fue reservada para el acuario.
  */
 void liberar_acuario(acuario_t* acuario);
-
 
 /*
  * Libera la memoria que fue reservada para el arrecife.
