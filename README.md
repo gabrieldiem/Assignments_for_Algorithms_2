@@ -1,6 +1,6 @@
 # Programming Assignments
 
-[![es](https://img.shields.io/badge/lang-es-orange.svg)](https://github.com/walgab/Assignments_for_Algorithms_2/blob/master/README.es.md)
+[![es](https://img.shields.io/badge/leer_en-espa%C3%B1ol_%F0%9F%87%AA%F0%9F%87%B8-darkgreen?style=flat)](https://github.com/walgab/Assignments_for_Algorithms_2/blob/master/README.es.md)
 
 Here are all my handed-in assignmentes for the subject _Algorithms and Programming 2_ at the Faculty of Engineering of the University of Buenos Aires (FIUBA). 
 
